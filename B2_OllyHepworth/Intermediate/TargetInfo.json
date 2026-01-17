@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "B2_OllyHepworth",
+			"Path": "..\\Source\\B2_OllyHepworth.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "B2_OllyHepworthEditor",
+			"Path": "..\\Source\\B2_OllyHepworthEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\B2_OllyHepworth.uproject" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\B2_OllyHepworth.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\B2_OllyHepworthEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\B2_OllyHepworth">
+      <UniqueIdentifier>{57E57035-CE8E-38CB-9730-69FA80047FEA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworth.Build.cs">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworth.cpp">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworth.h">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthCharacter.cpp">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthCharacter.h">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthGameMode.cpp">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthGameMode.h">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthPlayerController.cpp">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthPlayerController.h">
+      <Filter>Source\B2_OllyHepworth</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Combat">
+      <UniqueIdentifier>{E424F5D7-CEB5-3C80-9C6D-4594A14342A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Combat\AI">
+      <UniqueIdentifier>{022F2578-D31F-3258-9358-26117873F0BB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Combat\Animation">
+      <UniqueIdentifier>{295B9768-3D18-32EE-B936-ECF8C9F03C19}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{7A6A9E91-1393-351D-ABB7-983CF217EEC3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{5148164F-B931-3266-835B-B31079FF1A65}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Combat\UI">
+      <UniqueIdentifier>{E1136EDC-C2F8-327E-B902-A1C09F7BB564}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Platforming">
+      <UniqueIdentifier>{E2780BBC-1655-31CC-9F6D-7B7BBA4AEACB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\B2_OllyHepworth\Variant_Platforming\Animation">
+      <UniqueIdentifier>{AEB66EAA-FCDC-30E1-B8E8-E947E68AE8BD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\B2_OllyHepworth\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_SideScrolling">
+      <UniqueIdentifier>{77CF2301-6E0A-3682-8C9E-1CE6604124BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\B2_OllyHepworth\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{D6582FF3-8854-38FE-BED6-1204038A4457}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{C5F83A1F-566B-3924-A5B3-4B0AD27434F2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{C849F42C-CF22-3603-B461-8B6F3D5AA9B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{87A0FB71-FBC5-325B-B828-37982F6FA642}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
