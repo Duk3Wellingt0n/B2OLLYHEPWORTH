@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AB2_OllyHepworthGameMode_Statics;
 B2_OLLYHEPWORTH_API UClass* Z_Construct_UClass_AB2_OllyHepworthGameMode_NoRegister();
 
-#define FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAB2_OllyHepworthGameMode(); \
 	friend struct ::Z_Construct_UClass_AB2_OllyHepworthGameMode_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AB2_OllyHepworthGameMode)
 
 
-#define FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AB2_OllyHepworthGameMode(AB2_OllyHepworthGameMode&&) = delete; \
 	AB2_OllyHepworthGameMode(const AB2_OllyHepworthGameMode&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~AB2_OllyHepworthGameMode();
 
 
-#define FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_12_PROLOG
-#define FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_GENERATED_BODY \
+#define FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_12_PROLOG
+#define FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +56,6 @@ class AB2_OllyHepworthGameMode;
 // ********** End Class AB2_OllyHepworthGameMode ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h
+#define CURRENT_FILE_ID FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_B2_OllyHepworthGameMode_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

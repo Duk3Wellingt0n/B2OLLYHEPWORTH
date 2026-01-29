@@ -1090,15 +1090,15 @@ ACombatCharacter::~ACombatCharacter() {}
 // ********** End Class ACombatCharacter ***********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics
+struct Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ACombatCharacter, ACombatCharacter::StaticClass, TEXT("ACombatCharacter"), &Z_Registration_Info_UClass_ACombatCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACombatCharacter), 682949621U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_1920405171{
+}; // Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_1920405171{
 	TEXT("/Script/B2_OllyHepworth"),
-	Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Combat_CombatCharacter_h__Script_B2_OllyHepworth_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

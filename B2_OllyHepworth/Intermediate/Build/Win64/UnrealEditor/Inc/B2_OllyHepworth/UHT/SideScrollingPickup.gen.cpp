@@ -245,15 +245,15 @@ ASideScrollingPickup::~ASideScrollingPickup() {}
 // ********** End Class ASideScrollingPickup *******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics
+struct Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ASideScrollingPickup, ASideScrollingPickup::StaticClass, TEXT("ASideScrollingPickup"), &Z_Registration_Info_UClass_ASideScrollingPickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASideScrollingPickup), 3037688537U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_3329760437{
+}; // Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_3329760437{
 	TEXT("/Script/B2_OllyHepworth"),
-	Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_SideScrolling_Gameplay_SideScrollingPickup_h__Script_B2_OllyHepworth_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

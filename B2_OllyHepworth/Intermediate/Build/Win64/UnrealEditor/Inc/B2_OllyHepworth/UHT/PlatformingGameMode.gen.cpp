@@ -109,15 +109,15 @@ APlatformingGameMode::~APlatformingGameMode() {}
 // ********** End Class APlatformingGameMode *******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics
+struct Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_APlatformingGameMode, APlatformingGameMode::StaticClass, TEXT("APlatformingGameMode"), &Z_Registration_Info_UClass_APlatformingGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlatformingGameMode), 486027153U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_2802923808{
+}; // Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_2802923808{
 	TEXT("/Script/B2_OllyHepworth"),
-	Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_source_repos_NewRepo2_B2_OllyHepworth_Source_B2_OllyHepworth_Variant_Platforming_PlatformingGameMode_h__Script_B2_OllyHepworth_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };
