@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <None Include="..\..\.vsconfig" />
     <None Include="..\..\B2_OllyHepworth.uproject" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -58,6 +59,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\B2_OllyHepworth\B2_OllyHepworthPlayerController.h">
       <Filter>Source\B2_OllyHepworth</Filter>
+    </ClInclude>
+    <Filter Include="Source\B2_OllyHepworth\Private">
+      <UniqueIdentifier>{9B82AA04-AC54-394A-B1A1-5041AE3D10F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\B2_OllyHepworth\Private\OratorDataStructs.cpp">
+      <Filter>Source\B2_OllyHepworth\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\B2_OllyHepworth\Public">
+      <UniqueIdentifier>{DBD3CF5F-7E29-37C3-A03B-32A03C3FE462}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\B2_OllyHepworth\Public\OratorDataStructs.h">
+      <Filter>Source\B2_OllyHepworth\Public</Filter>
     </ClInclude>
     <Filter Include="Source\B2_OllyHepworth\Variant_Combat">
       <UniqueIdentifier>{E424F5D7-CEB5-3C80-9C6D-4594A14342A8}</UniqueIdentifier>
