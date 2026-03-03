@@ -339,5 +339,6 @@
     <ClInclude Include="..\..\Source\B2_OllyHepworth\Variant_SideScrolling\UI\SideScrollingUI.h">
       <Filter>Source\B2_OllyHepworth\Variant_SideScrolling\UI</Filter>
     </ClInclude>
+    <None Include="..\..\UpgradeLog.htm" />
   </ItemGroup>
 </Project>
