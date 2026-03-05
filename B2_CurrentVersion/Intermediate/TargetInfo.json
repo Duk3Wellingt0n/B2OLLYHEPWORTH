@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "B2_CurrentVersion",
+			"Path": "..\\Source\\B2_CurrentVersion.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "B2_CurrentVersionEditor",
+			"Path": "..\\Source\\B2_CurrentVersionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
