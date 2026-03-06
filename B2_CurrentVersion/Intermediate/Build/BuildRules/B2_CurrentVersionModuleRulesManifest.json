@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\ollyh\\Documents\\GitHub\\B2OLLYHEPWORTH\\B2_CurrentVersion\\Source\\B2_CurrentVersion\\B2_CurrentVersion.Build.cs",
-		"C:\\Users\\ollyh\\Documents\\GitHub\\B2OLLYHEPWORTH\\B2_CurrentVersion\\Source\\B2_CurrentVersion.Target.cs",
-		"C:\\Users\\ollyh\\Documents\\GitHub\\B2OLLYHEPWORTH\\B2_CurrentVersion\\Source\\B2_CurrentVersionEditor.Target.cs"
+		"C:\\Users\\comp5276140\\Documents\\GitHub\\B2OLLYHEPWORTH\\B2_CurrentVersion\\Source\\B2_CurrentVersion\\B2_CurrentVersion.Build.cs",
+		"C:\\Users\\comp5276140\\Documents\\GitHub\\B2OLLYHEPWORTH\\B2_CurrentVersion\\Source\\B2_CurrentVersion.Target.cs",
+		"C:\\Users\\comp5276140\\Documents\\GitHub\\B2OLLYHEPWORTH\\B2_CurrentVersion\\Source\\B2_CurrentVersionEditor.Target.cs"
 	],
-	"EngineVersion": "5.7.1"
+	"EngineVersion": "5.7.2"
 }
