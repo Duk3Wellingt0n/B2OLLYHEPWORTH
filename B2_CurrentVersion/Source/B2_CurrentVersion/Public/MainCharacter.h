@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "InputActionValue.h"
 #include "MainCharacter.generated.h"
 
 UCLASS()
@@ -27,6 +28,12 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 protected:
+	// declaring the mapping context
 	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
-	class UInputMappingontext* InputMapping;
+	class UInputMappingContext* InputMapping;
+
+	UPROPERTY(EditAnywhere , Category = "EnhancedInput")
+	class UInputAction* IA_Move;
+	// declare our move function
+	void Move(const FInputActionValue& Value);
 };

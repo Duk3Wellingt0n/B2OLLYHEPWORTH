@@ -15,6 +15,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 B2_CURRENTVERSION_API UClass* Z_Construct_UClass_AMainCharacter();
 B2_CURRENTVERSION_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
+ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 UPackage* Z_Construct_UPackage__Script_B2_CurrentVersion();
 // ********** End Cross Module References **********************************************************
 
@@ -56,9 +58,26 @@ struct Z_Construct_UClass_AMainCharacter_Statics
 		{ "IncludePath", "MainCharacter.h" },
 		{ "ModuleRelativePath", "Public/MainCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InputMapping_MetaData[] = {
+		{ "Category", "EnhancedInput" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// declaring the mapping context\n" },
+#endif
+		{ "ModuleRelativePath", "Public/MainCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "declaring the mapping context" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IA_Move_MetaData[] = {
+		{ "Category", "EnhancedInput" },
+		{ "ModuleRelativePath", "Public/MainCharacter.h" },
+	};
 #endif // WITH_METADATA
 
 // ********** Begin Class AMainCharacter constinit property declarations ***************************
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_InputMapping;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_IA_Move;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class AMainCharacter constinit property declarations *****************************
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -66,6 +85,16 @@ struct Z_Construct_UClass_AMainCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 }; // struct Z_Construct_UClass_AMainCharacter_Statics
+
+// ********** Begin Class AMainCharacter Property Definitions **************************************
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_InputMapping = { "InputMapping", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMainCharacter, InputMapping), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputMapping_MetaData), NewProp_InputMapping_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_IA_Move = { "IA_Move", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMainCharacter, IA_Move), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IA_Move_MetaData), NewProp_IA_Move_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_InputMapping,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_IA_Move,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::PropPointers) < 2048);
+// ********** End Class AMainCharacter Property Definitions ****************************************
 UObject* (*const Z_Construct_UClass_AMainCharacter_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_ACharacter,
 	(UObject* (*)())Z_Construct_UPackage__Script_B2_CurrentVersion,
@@ -77,11 +106,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AMainCharacter_Statics:
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_AMainCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::PropPointers),
 	0,
 	0x009000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams)
@@ -105,10 +134,10 @@ AMainCharacter::~AMainCharacter() {}
 struct Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMainCharacter, AMainCharacter::StaticClass, TEXT("AMainCharacter"), &Z_Registration_Info_UClass_AMainCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainCharacter), 2308313444U) },
+		{ Z_Construct_UClass_AMainCharacter, AMainCharacter::StaticClass, TEXT("AMainCharacter"), &Z_Registration_Info_UClass_AMainCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainCharacter), 3405210995U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_3533061589{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_4056395899{
 	TEXT("/Script/B2_CurrentVersion"),
 	Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics::ClassInfo),
 	nullptr, 0,
