@@ -131,15 +131,15 @@ AMainCharacter::~AMainCharacter() {}
 // ********** End Class AMainCharacter *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_comp5276140_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics
+struct Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMainCharacter, AMainCharacter::StaticClass, TEXT("AMainCharacter"), &Z_Registration_Info_UClass_AMainCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMainCharacter), 3405210995U) },
 	};
-}; // Z_CompiledInDeferFile_FID_Users_comp5276140_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_comp5276140_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_4056395899{
+}; // Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_4056395899{
 	TEXT("/Script/B2_CurrentVersion"),
-	Z_CompiledInDeferFile_FID_Users_comp5276140_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_comp5276140_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ollyh_Documents_GitHub_B2OLLYHEPWORTH_B2_CurrentVersion_Source_B2_CurrentVersion_Public_MainCharacter_h__Script_B2_CurrentVersion_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

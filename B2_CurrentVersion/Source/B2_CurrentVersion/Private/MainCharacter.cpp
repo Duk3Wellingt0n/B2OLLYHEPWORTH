@@ -49,6 +49,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	// setting up the input actions for the input mapping context
 	if (UEnhancedInputComponent* Input = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
+		// this is where we will bind all our actions for future reference to keep code clean
 		Input->BindAction(IA_Move, ETriggerEvent::Triggered, this, &AMainCharacter::Move);
 	}
 

@@ -31,7 +31,7 @@ protected:
 	// declaring the mapping context
 	UPROPERTY(EditAnywhere, Category = "EnhancedInput")
 	class UInputMappingContext* InputMapping;
-
+	// declare our input actions 
 	UPROPERTY(EditAnywhere , Category = "EnhancedInput")
 	class UInputAction* IA_Move;
 	// declare our move function
